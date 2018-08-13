@@ -1,0 +1,17 @@
+﻿body {
+}
+
+.closeBtn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    background: url(../images/close.png);
+    opacity: .4;
+}
+.closeBtn:hover{
+    cursor:pointer;
+    opacity:1;
+}
