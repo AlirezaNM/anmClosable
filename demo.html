@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Closable Plugin</title>
+	<meta charset="utf-8" />
+    <link href="css/anmClosableStyles.css" rel="stylesheet" />
+    <style>
+        div,section{
+            width:1200px;
+            height:60px;
+            background-color:mediumaquamarine;
+            padding:10px;
+            font-size:25px;
+            margin:15px;
+            /*position:static;*/
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div>DIV 1</div>
+    <div>DIV 2</div>
+    <div>DIV 3</div>
+    <section>SECTION 1</section>
+    <section>SECTION 2</section>
+    <section>SECTION 3</section>
+
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/anmClosablePlugin.js"></script>
+    <script>
+
+        $("div,section").Closable({
+            animation:"fadeOut"
+
+        });
+
+    </script>
+</body>
+</html>
